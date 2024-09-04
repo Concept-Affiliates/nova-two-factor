@@ -27,7 +27,7 @@
             </div>
 
             @if($errors->any())
-                <p class="text-center font-semibold text-red-400 my-2">
+                <p class="text-center font-bold text-red-400 my-2 mb-2" style="color: red;">
                     {{ $errors->first() }}
                 </p>
             @endif
