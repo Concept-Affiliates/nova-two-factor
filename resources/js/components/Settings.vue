@@ -19,7 +19,7 @@
               />
               <label
                 for="op-enable"
-                class="tw-block tw-ml-2 tw-text-sm tw-font-medium dark:text-white"
+                class="tw-block tw-ml-2 tw-text-sm tw-font-medium dark:text-slate"
               >
                 {{ __("Enable") }}
               </label>
@@ -35,7 +35,7 @@
               />
               <label
                 for="op-disable"
-                class="tw-block tw-ml-2 tw-text-sm tw-font-medium dark:text-white"
+                class="tw-block tw-ml-2 tw-text-sm tw-font-medium dark:text-slate"
               >
                 {{ __("Disable") }}
               </label>
