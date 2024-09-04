@@ -17,6 +17,10 @@
                 <path fill="#D8E3EC" d="M0 0h100v2H0z"></path>
             </svg>
 
+            <div class="mb-6">
+                <label class="block mb-2 text-center" for="otp">{{ __('Use the Recovery Code you saved when you setup your 2FA. If you don\'t have this value, please contact support@chargenation.io') }}</label>
+            </div>
+
             <div class="mb-6 ">
                 <label class="block font-bold mb-2" for="password">{{ __('Recovery Code') }}</label>
                 <input class="form-control form-input form-input-bordered w-full" id="password" type="text" name="recovery_code" required>
