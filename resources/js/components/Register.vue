@@ -22,7 +22,7 @@
             }}
           </p>
           <span
-            class="tw-bg-gray-100 tw-dark:bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
+            class="tw-bg-gray-100 dark:tw-bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
         >
             {{ __("Step 01") }}
         </span>
@@ -47,7 +47,7 @@
           </div>
 
           <span
-            class="tw-bg-gray-100 tw-dark:bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
+            class="tw-bg-gray-100 dark:tw-bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
             >{{ __("Step 02") }}</span
           >
 

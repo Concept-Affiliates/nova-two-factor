@@ -437,7 +437,7 @@ var _hoisted_4 = {
   "class": "tw-mb-3"
 };
 var _hoisted_5 = {
-  "class": "tw-bg-gray-100 tw-dark:bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
+  "class": "tw-bg-gray-100 dark:tw-bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
 };
 var _hoisted_6 = {
   "class": "no-print tw-my-4 tw-text-md"
@@ -449,7 +449,7 @@ var _hoisted_8 = {
   "class": "tw-text-xl tw-text-black dark:tw-text-white"
 };
 var _hoisted_9 = {
-  "class": "tw-bg-gray-100 tw-dark:bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
+  "class": "tw-bg-gray-100 dark:tw-bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
 };
 var _hoisted_10 = {
   "class": "tw-my-4 tw-text-md"
