@@ -2,7 +2,7 @@
   <LoadingView :loading="loading">
     <heading class="mb-6">{{ __("Two factor auth (Google 2FA)") }}</heading>
     <LoadingCard :loading="loading">
-      <div class="tw-grid tw-grid-cols-2 tw-gap-4 p-4">
+      <div class="tw-grid tw-grid-cols-1 tw-gap-4 p-4">
         <div class="">
           <p>
             {{
@@ -44,6 +44,20 @@
               href="#"
               >{{ __("Download") }}</a
             >
+
+            <div class="tw-flex tw-justify-center tw-items-center">
+              <div>
+                <img
+                  v-if="!svg"
+                  width="250"
+                  height="250"
+                  :src="qr_url"
+                  alt="qr_code"
+                  class="tw-shadow-md tw-p-5 tw-rounded-lg"
+                />
+                <div v-else v-html="qr_url"></div>
+              </div>
+            </div>
           </div>
 
           <span
@@ -74,19 +88,7 @@
             >
           </div>
         </div>
-        <div class="tw-flex tw-justify-center tw-items-center">
-          <div>
-            <img
-              v-if="!svg"
-              width="250"
-              height="250"
-              :src="qr_url"
-              alt="qr_code"
-              class="tw-shadow-md tw-p-5 tw-rounded-lg"
-            />
-            <div v-else v-html="qr_url"></div>
-          </div>
-        </div>
+        
       </div>
     </LoadingCard>
   </LoadingView>

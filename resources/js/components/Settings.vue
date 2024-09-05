@@ -2,7 +2,7 @@
   <LoadingView :loading="loading">
     <heading class="mb-6">{{ __("Two factor auth (Google 2FA)") }}</heading>
     <LoadingCard :loading="loading">
-      <div class="tw-grid tw-grid-cols-2 tw-gap-4 p-4">
+      <div class="tw-grid tw-grid-cols-1 tw-gap-4 p-4">
         <div class="">
           <div>
             <p class="mb-4 text-slate-900 dark:text-slate-400">
