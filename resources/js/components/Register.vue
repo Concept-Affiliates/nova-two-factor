@@ -22,9 +22,10 @@
             }}
           </p>
           <span
-            class="tw-bg-gray-100 tw-text-gray-800 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
-            >{{ __("Step 01") }}</span
-          >
+            class="tw-bg-gray-100 tw-dark:bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
+        >
+            {{ __("Step 01") }}
+        </span>
           <p class="no-print tw-my-4 tw-text-md">
             {{
               __(
@@ -36,7 +37,7 @@
           <div
             class="tw-mb-4 tw-border-dashed tw-border-2 tw-border-light-blue dark:border-gray-500 tw-p-4 tw-rounded-lg tw-text-center tw-bg-gray-50 dark:bg-gray-700"
           >
-            <h2 class="tw-text-xl tw-text-black">{{ recovery }}</h2>
+            <h2 class="tw-text-xl tw-text-black dark:tw-text-white">{{ recovery }}</h2>
             <a
               class="tw-text-blue-700"
               @click.prevent="downloadAsText('recover_code.txt', recovery)"
@@ -46,7 +47,7 @@
           </div>
 
           <span
-            class="tw-bg-gray-100 tw-text-gray-800 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
+            class="tw-bg-gray-100 tw-dark:bg-gray-700 tw-text-gray-800 dark:tw-text-gray-200 tw-text-xs tw-font-semibold tw-mr-2 tw-px-2.5 tw-py-0.5 tw-rounded"
             >{{ __("Step 02") }}</span
           >
 
