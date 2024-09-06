@@ -9,7 +9,7 @@
               {{ __("Update your two factor security settings") }}
             </p>
 
-            <div class="tw-flex tw-items-center tw-mb-4">
+            <div class="tw-flex tw-items-center tw-mb-4" style="display: none !important;">
               <input
                 v-model="status"
                 :value="true"
@@ -25,7 +25,7 @@
               </label>
             </div>
 
-            <div class="tw-flex tw-items-center tw-mb-4 hidden">
+            <div class="tw-flex tw-items-center tw-mb-4" style="display: none !important;">
               <input
                 v-model="status"
                 :value="false"
@@ -43,11 +43,11 @@
 
             <br />
 
-            <DefaultButton @click="toggle" :disabled="true">{{
+            <DefaultButton @click="toggle" :disabled="true" style="display: none !important;">{{
               __("Update Settings")
             }}</DefaultButton>
             <Link
-              class="ml-3"
+              class="shadow relative bg-primary-500 hover:bg-primary-400 text-white dark:text-gray-900 cursor-pointer rounded text-sm font-bold focus:outline-none focus:ring ring-primary-200 dark:ring-gray-600 inline-flex items-center justify-center h-9 px-3 shadow relative bg-primary-500 hover:bg-primary-400 text-white dark:text-gray-900"
               as="button"
               :href="resolveNovaPath('/nova-two-factor/clear')"
             >
