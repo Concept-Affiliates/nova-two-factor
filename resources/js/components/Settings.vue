@@ -25,7 +25,7 @@
               </label>
             </div>
 
-            <div class="tw-flex tw-items-center tw-mb-4">
+            <div class="tw-flex tw-items-center tw-mb-4 hidden">
               <input
                 v-model="status"
                 :value="false"
@@ -43,7 +43,7 @@
 
             <br />
 
-            <DefaultButton @click="toggle">{{
+            <DefaultButton @click="toggle" :disabled="true">{{
               __("Update Settings")
             }}</DefaultButton>
             <Link
