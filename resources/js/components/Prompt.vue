@@ -17,7 +17,7 @@
                 </HelpText>
             </div>
 
-            <DefaultButton class="w-full flex justify-center" type="submit">
+            <DefaultButton class="w-full flex justify-center shadow relative bg-primary-500 hover:bg-primary-400 text-white dark:text-gray-900 cursor-pointer rounded text-sm font-bold focus:outline-none focus:ring ring-primary-200 dark:ring-gray-600 items-center h-9 px-3 shadow relative bg-primary-500 hover:bg-primary-400 text-white dark:text-gray-900" type="submit">
                 <span>
                     {{ __('Authenticate') }}
                 </span>
